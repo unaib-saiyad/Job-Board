@@ -53,10 +53,10 @@ function Signup() {
                 <label htmlFor="confm_password" className='py-2 col-xl-3 col-md-4 col-sm-12 fs-5'>Confirm Pass.</label>
                 <input className="input p-2 rounded col-xl-9 col-md-8 col-sm-12'" type="password" name="confm_password" placeholder="Confirm Password" autoComplete="off" />
               </div>
-              <div className="justify-content-center row mt-3">
+              {/* <div className="justify-content-center row mt-3">
                 <label htmlFor="mobile" className='py-2 col-xl-3 col-md-4 col-sm-12 fs-5'>Mobile</label>
                 <input className="input p-2 rounded col-xl-9 col-md-8 col-sm-12'" type="number" name="mobile" placeholder="Enter Mobile" autoComplete="off" />
-              </div>
+              </div> */}
               <div className="row mt-3 d-flex">
                 <label htmlFor="gender" className='py-2 col-xl-3 col-md-4 col-sm-12 fs-5'>Gender</label>
                 <div className='col-xl-9 col-md-8 col-sm-12 row'>
