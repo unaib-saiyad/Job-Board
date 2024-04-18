@@ -1,6 +1,7 @@
 import './App.css';
 import Signup from './components/authentication/Signup';
 import Login from './components/authentication/Login';
+import CandidateDashboard from './components/dashboard/CandidateDash';
 import {
   BrowserRouter as Router,
   Routes,
@@ -12,8 +13,9 @@ function App() {
     <>
     <Router>
       <Routes>
-          <Route exact path="/signup" element={<Signup/>}/>
           <Route exact path="/" element={<Login/>}/>
+          <Route exact path="/signup" element={<Signup/>}/>
+          <Route exact path="/dashboard" element={<CandidateDashboard/>}/>
       </Routes>
     </Router>
     </>

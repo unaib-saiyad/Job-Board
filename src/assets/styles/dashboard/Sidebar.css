@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background: rgb(21 28 34);
+    color: white;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    transition: width 0.3s ease;
+}
+
+.open-sidebar {
+    width: 12%;
+}
+
+.close-sidebar {
+    width: 5%;
+}
+
+.sidebarHeader i{
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+
+.rotate {
+    transform: rotate(360deg);
+}
