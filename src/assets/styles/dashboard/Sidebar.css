@@ -6,8 +6,8 @@
 .sidebar {
     background: rgb(21 28 34);
     color: white;
-    height: 100%;
-    position: fixed;
+    height: 100vh;
+    position: relative;
     left: 0px;
     top: 0px;
     transition: width 0.3s ease;
@@ -30,15 +30,24 @@
     transform: rotate(360deg);
 }
 
-.sidebarBody ul{
+.sidebarBody ul, .sidebarFooter ul{
     list-style: none;
 }
 
-.sidebarBody ul li{
+.sidebarBody ul li, .sidebarFooter ul li{
     border-radius: 0px 25px 25px 0px;
     cursor: pointer;
 }
 
+.sidebarBody ul li:hover, .sidebarFooter ul li:hover{
+    background: #313539;
+}
+
+.sidebarFooter{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
 /* .sidebarBody ul li a{
     text-decoration: none;
     color: white;

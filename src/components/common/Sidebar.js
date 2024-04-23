@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import '../../assets/styles/dashboard/Sidebar.css';
-import logo from '../../assets/images/dashboard/logos/companyLogo.png';
+// import logo from '../../assets/images/dashboard/logos/companyLogo.png';
 function Sidebar() {
   const [isRotated, setIsRotated] = useState(false);
   const [display, setDisplay] = useState(false);
@@ -40,6 +40,15 @@ function Sidebar() {
               <i className="fa-solid fa-gear px-2"></i>
               <span className={`${display ? 'd-none' : ''}`}>Settings</span>
             </li>
+          </ul>
+        </div>
+
+        <div className='sidebarFooter'>
+          <ul className='p-0'>
+          <li className="my-2 p-2 w-75">
+            <i class="fa-solid fa-right-from-bracket px-2"></i>
+            <span className={`${display ? 'd-none' : ''}`}>Settings</span>
+          </li>
           </ul>
         </div>
       </div>
